@@ -6,10 +6,7 @@ module.exports = (pid, cb) => {
   const proc = run('osascript', [])
   proc.end(`
     tell application "System Events"
-      set procs to every process whose unix id is ${pid}
-      repeat with proc in procs
-        set the frontmost of proc to true
-      end repeat
+      set frontmost of the first process whose unix id is ${pid} to true
     end tell
   `)
   proc.on('error', cb)
