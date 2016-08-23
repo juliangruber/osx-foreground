@@ -1,0 +1,16 @@
+{
+  "name": "osx-foreground",
+  "version": "0.0.0",
+  "description": "Foreground an application",
+  "repository": "juliangruber/osx-foreground",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard"
+  },
+  "dependencies": {
+    "comandante": "0.0.1"
+  },
+  "devDependencies": {
+    "standard": "^8.0.0-beta.5"
+  }
+}
