@@ -11,6 +11,6 @@
     "comandante": "0.0.1"
   },
   "devDependencies": {
-    "standard": "^8.0.0-beta.5"
+    "standard": "^9.0.0"
   }
 }
